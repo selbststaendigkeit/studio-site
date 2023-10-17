@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Studio Site
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--задаем вьюпорт-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page">
+    <!-- начало header -->
+    <header class="page__header header">
+
+        <div class="header__wrapper">
+
+            <nav class="header__menu-block header__menu-block--closed">
+
+                <div class="header__heading-line header__heading-line--closed">
+
+                    <div class="header__logo logo">
+                        insite
+                    </div>
+
+                    <button class="header__menu-toggler header__menu-toggler--burger" type="button" id="burger">
+                    </button>
+
+                </div>
+
+                <ul class="header__menu-list header__menu-list--closed">
+
+                    <li class="header__menu-item">
+
+                        <a class="header__menu-item-text" href="#about-section">
+                            О нас
+                        </a>
+
+                    </li>
+                    <li class="header__menu-item">
+
+                        <a class="header__menu-item-text" href="#projects-section">
+                            Проекты
+                        </a>
+
+                    </li>
+                    <li class="header__menu-item">
+
+                        <a class="header__menu-item-text" href="#contacts-section">
+                            Связаться с нами
+                        </a>
+
+                    </li>
+
+                </ul>
+
+                <a class="header__language header__language--closed" href="#">
+                    eng / <b>рус</b>
+                </a>
+
+                <div class="decoration-line">
+                </div>
+
+            </nav>
+
+            <img class="header__lightning-image" src="img/Lighting bolt.svg" height="400px" width="273px"
+                alt="lighning">
+
+            <div class="header__slogan slogan">
+
+                <p class="slogan__text">
+                    Качественно выполняем
+                </p>
+                <p class="slogan__text slogan__text--accent slogan__text--first">
+                    разработку
+                </p>
+                <p class="slogan__text slogan__text--accent slogan__text--second">
+                    интернет-магазина
+                </p>
+
+            </div>
+
+            <button class="header__theme-switch" type = "button" id="light-mode">
+                Светлая/темная тема
+            </button>
+
+        </div>
+
+    </header>
+    <!-- конец header -->
+
+    <!-- начало main -->
+    <main class="page__main main">
+
+        <!-- начало блока about-->
+        <section class="main__about about" id="about-section">
+
+            <div class="about__wrapper">
+
+                <h2 class="about__heading block__heading">
+                    О нас
+                </h2>
+
+                <div class="about__description-container">
+                    <p class="about__description">
+                        Наша команда состоит из людей с весомым
+                        опытом, за годы работы мы допустили почти все ошибки и знаем, как
+                        надо и не надо делать. Мы считаем дизайн и удобство
+                        интерфейса первым и основным, над чем следуюет работать,
+                        а стабильный код - обязательным гигиеническим условием.
+                    </p>
+                    <p class="about__description">
+                        Мы используем методологии и технологии производства,
+                        позволяющие снизить количество дефектов с самого начала, и быстро
+                        доводить продукты до готовности
+                    </p>
+                </div>
+
+                <ul class="about__services">
+
+                    <li class="about__services-item">
+
+                        <h3 class="about__services-name">
+                            дизайн
+                        </h3>
+
+                        <p class="about__services-description">
+                            Создаем сложные интерактивные дизайн-системы,
+                            которыми удобно пользоваться. Проводим полный цикл работ
+                            от аналитики и проектирования до анимации интерфейса.
+                        </p>
+
+                    </li>
+                    <li class="about__services-item">
+
+                        <h3 class="about__services-name">
+                            разработка
+                        </h3>
+
+                        <p class="about__services-description">
+                            Занимаемся разработкой сервиса различной функциональности
+                            и масштабов. Создаем программное обеспечение, тестируем и запускаем
+                            проекты. Обеспечиваем поддержку и развитие.
+                        </p>
+
+                    </li>
+                    <li class="about__services-item">
+
+                        <h3 class="about__services-name">
+                            консалтинг
+                        </h3>
+
+                        <p class="about__services-description">
+                            Объясним, как увеличить конверсию сделок посредством
+                            грамотной аналитики. Покажем, как правильно подать клиенту
+                            информацию о вашей компании.
+                        </p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- конец блока about -->
+
+        <!-- начало блока projects -->
+        <section class="main__projects projects" id="projects-section">
+
+            <div class="projects__wrapper">
+
+                <h2 class="block__heading">
+                    проекты
+                </h2>
+
+                <ul class="projects__list">
+
+                    <li class="projects__item example">
+
+                        <ul class="example__services-list">
+
+                            <li class="example__services-item">
+                                дизайн
+                            </li>
+                            <li class="example__services-item">
+                                разработка
+                            </li>
+
+                        </ul>
+
+                        <a class="example__link example__link--olsta" href="olsta.ru">
+                            olsta.ru
+                        </a>
+
+                        <img class="example__number" src="img/01.svg" height="94" width="87">
+
+                        <ul class="example__photo-list">
+
+                            <li class="example__photo-item">
+                                <img class="example__photo-item--lamp" src="img/olsta_nover2.png" width="510" height="365">
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--door" src="img/olsta_nover.png" width="372" height="528">
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="projects__item example">
+
+                        <ul class="example__services-list">
+
+                            <li class="example__services-item">
+                                дизайн
+                            </li>
+                            <li class="example__services-item">
+                                разработка
+                            </li>
+
+                        </ul>
+
+                        <a class="example__link example__link--bayramix" href="bayramix.ru">
+                            bayramix.ru
+                        </a>
+
+                        <img class="example__number" src="img/02.svg" height="94" width="87">
+                        
+                        <ul class="example__photo-list">
+
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--stairs" src="img/bayramix_hover1.png" width="472" height="320">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--bed" src="img/bayramix_hover2.png" width="458" height="583">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--red-sofa" src="img/bayramix_hover3.png" width="360" height="245">
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="projects__item example">
+
+                        <ul class="example__services-list">
+
+                            <li class="example__services-item">
+                                дизайн
+                            </li>
+
+                        </ul>
+
+                        <a class="example__link example__link--calipso" href="calipsoshoes.ru">
+                            calipsoshoes.ru
+                        </a>
+
+                        <img class="example__number" src="img/03.svg" height="94" width="87">
+
+                        <ul class="example__photo-list">
+
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--girl" src="img/calipso_hover1.png" width="442" height="669">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--clutch" src="img/calipso_hover2.png" width="355" height="474">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--jacket" src="img/calipso_hover3.png" width="305" height="215">
+
+                            </li>
+
+                        </ul>
+
+
+                    </li>
+
+                    <li class="projects__item example">
+
+                        <ul class="example__services-list">
+
+                            <li class="example__services-item">
+                                дизайн
+                            </li>
+                            <li class="example__services-item">
+                                разработка
+                            </li>
+
+                        </ul>
+
+                        <a class="example__link example__link--decorazza" href="decorazza.ru">
+                            decorazza.ru
+                        </a>
+
+                        <img class="example__number" src="img/04.svg" height="94" width="87">
+
+                        <ul class="example__photo-list">
+
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--sofa" src="img/devorazza_nover1.png" width="418" height="554">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--paint" src="img/devorazza_nover2.png" width="522" height="362">
+
+                            </li>
+
+                        </ul>
+
+
+                    </li>
+
+                    <li class="projects__item example">
+
+                        <ul class="example__services-list">
+
+                            <li class="example__services-item">
+                                дизайн
+                            </li>
+                            <li class="example__services-item">
+                                разработка
+                            </li>
+
+                        </ul>
+
+                        <a class="example__link example__link--details-shop" href="details-shop.ru">
+                            details-shop.ru
+                        </a>
+
+                        <img class="example__number" src="img/05.svg" height="94" width="87">
+
+                        <ul class="example__photo-list">
+
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--white-sofa" src="img/details-shop_hover1.png" width="604" height="386">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--sofa-lamp" src="img/details-shop_hover2.png" width="324" height="208">
+
+                            </li>
+                            <li class="example__photo-item">
+
+                                <img class="example__photo-item--floor-lamp" src="img/details-shop_hover3.png" width="408" height="562">
+
+                            </li>
+
+                        </ul>
+
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- конец блока projects -->
+
+        <!-- начало блока contacts -->
+        <section class="main__contacts contacts" id="contacts-section">
+
+            <div class="contacts__wrapper">
+
+                <h2 class="contacts__heading block__heading">
+                    связаться с нами
+                </h2>
+
+                <ul class="contacts__list">
+
+                    <li class="contacts__item">
+
+                        <a class="contacts__link" href="mailto:work@insite.com">
+                            work@insite.com
+                        </a>
+
+                    </li>
+
+                    <li class="contacts__item">
+
+                        <a class="contacts__link" href="#">
+                            telegram
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- конец блока contacts -->
+
+    </main>
+    <!-- конец main -->
+    <script src="script.js"></script>
+</body>
+
+</html>

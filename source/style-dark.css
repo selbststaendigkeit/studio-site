@@ -1,0 +1,56 @@
+@media (min-width: 1280px) {
+    .page {
+        background-color: #161616;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .header__menu-block {
+        background-color: #161616;
+        transition: 0.5s;
+    }
+
+    .header__menu-item-text {
+        background-color: #161616;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .logo::before {
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    .header__lightning-image {
+        transition: 0.5s;
+    }
+
+    .header__language {
+        background-color: #161616;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .header__theme-switch {
+        border-color: white;
+    }
+
+    .example__link {
+        color: white;
+        transition: 0.5s;
+    }
+
+    .example__link:hover {
+        color: #C62040;
+    }
+
+    .example__number {
+        display: none;
+    }
+
+    .contacts__link {
+        color: white;
+        transition: 0.5s;
+    }
+
+}
